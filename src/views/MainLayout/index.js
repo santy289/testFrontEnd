@@ -1,9 +1,11 @@
 import React from 'react';
-import Header from '../Header';
+import Mainrouter from '../../utils/routes/mainRouter';
 
 function App() {
   return (
-    <Header/>
+    <div>
+      <Mainrouter/>
+    </div>    
   );
 }
 
